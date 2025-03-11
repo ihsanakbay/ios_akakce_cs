@@ -5,7 +5,7 @@ An application that displays products from the FakeStoreAPI. This project demons
 ## Features
 
 - Browse products in horizontal carousel and vertical grid layouts
-- View detailed product information including images, descriptions, and ratings
+- View detailed product information including images, prices, descriptions, and ratings
 - Responsive UI adapts to different device sizes
 - Clean network layer with Combine framework
 - Error handling and loading states
@@ -42,4 +42,5 @@ This project follows MVVM (Model-View-ViewModel) architecture pattern:
 This app uses the [FakeStoreAPI](https://fakestoreapi.com/) to retrieve product data. The API provides endpoints for:
 
 - Fetching all products
+- Fetching all products by limit
 - Fetching product details
