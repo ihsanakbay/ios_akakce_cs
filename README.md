@@ -1,4 +1,4 @@
-# iOS Akakce Case Study App
+# iOS Akakçe Case Study App
 
 An application that displays products from the FakeStoreAPI. This project demonstrates clean architecture principles, and practices.
 
@@ -12,7 +12,8 @@ An application that displays products from the FakeStoreAPI. This project demons
 
 ## Screenshots
 
-(Screenshots will be added here)
+![SS](https://github.com/user-attachments/assets/b6554dbe-9d48-42a9-857d-9796d56c7980)
+
 
 ## Architecture
 
@@ -42,40 +43,3 @@ This app uses the [FakeStoreAPI](https://fakestoreapi.com/) to retrieve product 
 
 - Fetching all products
 - Fetching product details
-- Fetching products by category
-
-## Requirements
-
-- iOS 14.0+
-- Xcode 14.0+
-- Swift 5.0+
-
-## Setup and Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/ihsanakbay/ios-akakce-cs.git
-   ```
-
-2. Navigate to the project directory:
-   ```bash
-   cd ios-shopping-app
-   ```
-
-3. Create a `Config.plist` file with your API configuration:
-   ```xml
-   <?xml version="1.0" encoding="UTF-8"?>
-   <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-   <plist version="1.0">
-   <dict>
-       <key>API_KEY</key>
-       <string>your_api_key_if_needed</string>
-       <key>API_HOST</key>
-       <string>https://fakestoreapi.com</string>
-   </dict>
-   </plist>
-   ```
-
-4. Open the `.xcodeproj` file in Xcode
-
-5. Build and run the application
