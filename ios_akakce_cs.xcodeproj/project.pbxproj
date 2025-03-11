@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F97ACF702D8062A600D63842 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F97ACF6F2D8062A600D63842 /* Kingfisher */; };
 		F98756D82D80DCA20034AB66 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F98756D72D80DC9B0034AB66 /* README.md */; };
+		F98756DA2D80DF590034AB66 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = F98756D92D80DF550034AB66 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		F97ACF1B2D80486D00D63842 /* ios_akakce_csTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_akakce_csTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F97ACF252D80486D00D63842 /* ios_akakce_csUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ios_akakce_csUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F98756D72D80DC9B0034AB66 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F98756D92D80DF550034AB66 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -95,6 +97,7 @@
 		F97ACEFC2D80486C00D63842 = {
 			isa = PBXGroup;
 			children = (
+				F98756D92D80DF550034AB66 /* .gitignore */,
 				F98756D72D80DC9B0034AB66 /* README.md */,
 				F97ACF072D80486C00D63842 /* ios_akakce_cs */,
 				F97ACF1E2D80486D00D63842 /* ios_akakce_csTests */,
@@ -237,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F98756DA2D80DF590034AB66 /* .gitignore in Resources */,
 				F98756D82D80DCA20034AB66 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
